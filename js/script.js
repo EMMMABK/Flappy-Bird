@@ -13,6 +13,12 @@ fg.src = './img/bird_fg.png';
 pipeUp.src = './img/pipe.png';
 pipeBottom.src = './img/xpipe.png';
 
+let fly = new Audio();
+let score_audio = new Audio();
+
+fly.src = "./audio/fly.mp3"
+score_audio.src = "./audio/score.mp3"
+
 // Wait for all images to load before starting the game
 let imagesLoaded = 0;
 function imagesLoadedCheck() {
@@ -61,6 +67,7 @@ function draw() {
         }
         if(pipe[i].x == 5){
             score++;
+            score_audio.play();
         }
     }
     ctx.drawImage(fg, 0, cvs.height - fg.height);
@@ -79,4 +86,5 @@ document.addEventListener('keydown', moveUp);
 
 function moveUp() {
     yPos -= 25;
+    fly.play();
 }
