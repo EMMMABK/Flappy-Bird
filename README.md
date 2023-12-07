@@ -1,30 +1,29 @@
 # Adil's Bird
 
-Это простая игра, созданная на HTML5 Canvas, в которой игрок управляет птицей, избегая препятствий.
+This is a simple game created using HTML5 Canvas, where the player controls a bird, avoiding obstacles.
 
-## Описание
+## Description
 
-Эта игра создана с использованием HTML5 Canvas и JavaScript. Она позволяет игроку управлять птицей, нажимая на клавиатуре, чтобы подниматься вверх и избегать препятствий.
+This game is built using HTML5 Canvas and JavaScript. It allows the player to control a bird by pressing keys on the keyboard to fly upward and avoid obstacles.
 
-## Как начать игру
+## How to Start the Game
 
-Для запуска игры:
+To start the game:
 
-1. Склонируйте репозиторий на свой компьютер: `git clone https://github.com/your-username/your-repo.git`
-2. Откройте файл `index.html` в вашем браузере.
+1. Clone the repository to your computer: `git clone https://github.com/your-username/your-repo.git`
+2. Open the `index.html` file in your browser.
 
-## Инструкции по игре
+## Game Instructions
 
-- Используйте клавишу пробела или любую другую клавишу для поднятия птицы и избегания столкновения с препятствиями.
-- Цель игры - продержаться как можно дольше, избегая столкновения с трубами.
+- Use the spacebar or any other key to make the bird fly upward and avoid collisions with obstacles.
+- The goal of the game is to survive as long as possible by avoiding collisions with the pipes.
 
-## Важные файлы
+## Important Files
 
-- `index.html`: основной файл HTML, содержащий разметку и канвас.
-- `js/script.js`: JavaScript-код, управляющий логикой игры.
-- `img/`: папка с изображениями, используемыми в игре.
+- `index.html`: main HTML file containing markup and the canvas.
+- `js/script.js`: JavaScript code responsible for the game's logic.
+- `img/`: folder containing images used in the game.
 
-## Примечания
+## Notes
 
-Это базовая версия игры и может быть доработана или улучшена для добавления новых функций или улучшения интерфейса.
-
+This is a basic version of the game and can be enhanced or improved to add new features or improve the interface.
