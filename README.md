@@ -1,4 +1,3 @@
-![logo](https://i.ibb.co/g6gsscQ/Fly-bird-logo.png)
 # Adil's Bird 🕹️🐦
 
 This is a simple game created using HTML5 Canvas, where the player controls a bird, avoiding obstacles.
@@ -6,6 +5,11 @@ This is a simple game created using HTML5 Canvas, where the player controls a bi
 ## Description ℹ️
 
 This game is built using HTML5 Canvas and JavaScript. It allows the player to control a bird by pressing keys on the keyboard to fly upward and avoid obstacles.
+
+## Screenshots
+
+![flappy](./assets/flappy-bird.png)
+![flappy](./assets/flappy-bird.png)
 
 ## How to Start the Game 🚀
 
